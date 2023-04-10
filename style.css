@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70%;
+    height: 625px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    border-radius: 7px;
+    overflow: scroll;
+    /* Esconde a barra do Firefox e no IE*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    box-shadow: 1px 1px 20px #9c9c9c;
+}
+
+/* Esconde a barra no Chrome, Opera, Safari e outros... */
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.card-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.linha1 {
+    width: 60px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #e6c019;
+}
+
+.linha2 {
+    width: 60px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #9e830e;
+}
